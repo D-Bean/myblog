@@ -1,0 +1,78 @@
+	.nav{
+		padding-bottom: 30px;
+		padding-top:30px;
+	}
+	.nav a{
+		color:#333;
+		text-decoration: none;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 20px;
+		font-family: 'Shift', sans-serif;
+		font-weight: bold;
+	}
+	.container{
+		width: 1000px;
+		margin: 0 auto;
+	}
+	.nav .container ul{
+		list-style: none;
+		margin-left: 0;
+		margin-right: 0;
+	} 
+	.nav .container li{
+		float: left;
+		padding-left: 50px;
+	}
+	.jumbotron{
+		background:url(bg.jpg) no-repeat left top;
+		height:400px;
+		width:1920px;
+	}
+	.jumbotron .container{
+		position: relative;
+		top:50px;
+	}
+	.jumbotron h1{
+		color:white;
+		text-shadow:black 1px 2px 5px;
+		font-size: 50px;
+		font-family: Arial, sans-serif;
+		padding-left: 40px;
+		padding-top: 40px;
+		text-align:center;
+	}
+	.jumbotron p{
+		font-size: 20px;
+		font-family: Helvetica,Lucida;
+		color:white;
+		text-align: center;
+	}
+	.detail-on-outlined .container{
+		width: 1000px;
+		
+		padding-top: 20px;
+
+	}
+	.My-Javascript,.My-Css,.My-Pictures,.About-Me{
+		height: 300px;
+		width: 250px;
+		display: block;
+		text-align: center;
+		float:left;
+	}
+	.detail-on-outlined .container h3{
+		font-family: Arial, sans-serif;
+		font-size: 24px;
+	}
+	.detail-on-outlined .container p{
+		margin: auto 0; 
+		line-height: 22px;
+		font-family: Helvetica,Lucida;
+		font-size: 14px;
+	}
+	.Start-here{
+		margin: auto 20px;
+	}
