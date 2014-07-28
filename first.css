@@ -28,8 +28,8 @@
 	}
 	.jumbotron{
 		background:url(bg.jpg) no-repeat left top;
-		height:400px;
-		width:1920px;
+		height:350px;
+		width:100%;
 	}
 	.jumbotron .container{
 		position: relative;
@@ -51,14 +51,16 @@
 		text-align: center;
 	}
 	.detail-on-outlined .container{
+		height: 180px;
 		width: 1000px;
-		
-		padding-top: 20px;
+		padding-top: 30px;
+		padding-bottom: 20px;
 
 	}
 	.My-Javascript,.My-Css,.My-Pictures,.About-Me{
-		height: 300px;
-		width: 250px;
+		padding-left: 15px;
+		padding-right: 15px;
+		width: 220px;
 		display: block;
 		text-align: center;
 		float:left;
@@ -74,5 +76,49 @@
 		font-size: 14px;
 	}
 	.Start-here{
-		margin: auto 20px;
+		background: url(bg_1.jpg) no-repeat top left;
+		height: 180px;
+		width: 100%;
+	}
+	
+	.Start-here .container h2{
+		text-shadow:white 2px 0px 6px;
+		font-family: Arial, sans-serif;
+		font-size: 60px;
+		padding-bottom:20px; 
+		padding-top: 60px;
+		color:white;
+		text-align: center;
+	}
+	.Start-here .container ul{	
+		display: block;
+		float: left;
+		list-style: none;
+		padding-left: 52%;
+		font-family: Helvetica,Lucida;
+		font-size:18px;
+		color:#333333; 
+	}
+	.Start-here .container li{
+		height: 180px;
+	}
+	li p.title{
+		font-size: 16px;
+		color: #000000;
+		font-family: Helvetica,Lucida;
+	}
+	li p.content{
+		font-size: 16px;
+		color: #333333;
+		font-family: Helvetica,Lucida;
+	}
+	li p.more {
+		font-size: 12px;
+		color: #666666;
+		font-family: Helvetica,Lucida;
+	}
+	.Start-here .img_1{
+		padding-top: 93px;
+		height: 400px;
+		background: url(bg_2.png) repeat-y  center;
 	}
