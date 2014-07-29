@@ -91,6 +91,7 @@
 		text-align: center;
 	}
 	.Start-here .container ul{	
+		width: 5px;
 		display: block;
 		float: left;
 		list-style: none;
@@ -121,4 +122,14 @@
 		padding-top: 93px;
 		height: 400px;
 		background: url(bg_2.png) repeat-y  center;
+	}
+	.Start-here .img{
+		display: block;
+		width: 40px;
+		float: left;
+		margin-left: -350px;
+		
+	}
+	.Start-here .img ul{
+
 	}
